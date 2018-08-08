@@ -5,10 +5,9 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4"
-    },
-    "replace": {
-        "drupal/core": "^8.5"
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drupal/core": "^8.5",
+        "drupal/admin_toolbar": "^1.24"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -28,7 +27,7 @@
             "include": [
                 "core/composer.json"
             ],
-            "recurse": true,
+            "recurse": false,
             "replace": false,
             "merge-extra": false
         },
