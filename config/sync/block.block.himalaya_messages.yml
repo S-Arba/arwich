@@ -1,0 +1,22 @@
+uuid: 769b5269-5f6b-4c61-9bdf-eae2ca817744
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - himalaya
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: himalaya_messages
+theme: himalaya
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
