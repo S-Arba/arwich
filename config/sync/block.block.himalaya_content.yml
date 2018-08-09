@@ -1,0 +1,22 @@
+uuid: afe7475a-a72b-4068-8884-673a6a39158d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - himalaya
+_core:
+  default_config_hash: 80N66GdzEvwqi1m-_GZ-ulkk8AJG9beoXcZ4-pMVKjI
+id: himalaya_content
+theme: himalaya
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
